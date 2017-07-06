@@ -1,0 +1,181 @@
+body,html{
+	margin:0;
+	padding: 0;
+}
+
+.nav #items{
+	float: right;
+	margin-right: 100px;
+}
+
+.nav #items li{
+	display: inline-block;
+	font-weight: bolder;
+	margin-right: 30px;
+	font-size: 20px;
+	font-family: bradley hand ITC;
+}
+
+.nav #items li a{
+	text-decoration: none;
+	color: black;
+
+}
+
+.nav {
+	height: 70px;
+	width: 100%;
+	background-color: #087cb1;
+
+}
+
+
+.nav #logo {	
+	width: 100px;
+	margin-left: 20px;
+}
+
+#logoDiv{
+	float:left;
+	width:120px;
+}
+
+#hp {
+	height: 700px;
+	width: 1332px;
+}
+
+.one{
+	width:22%;
+	height: 70px;
+	float:left;
+}
+
+.one img{
+	width: 200px;
+	border-radius: 35px;
+	margin-top: 10px;
+	height: 130px;
+}
+
+#footer{
+	background-color: #ffeb3b;
+	text-align: center;
+	height: 240px;
+	
+	margin-top: 160px;
+	font-weight: bold;
+	color:black;
+	font-family: century schoolbook;
+}
+
+.socms li {
+	display: inline;
+
+}
+
+
+#dc {
+
+	padding-bottom: 25px;
+}
+
+#dc #divs {
+	width: 100%;
+	text-align: center;
+	padding: 0% 2% 0% 2%;
+	font-weight: bold;
+	background-color: white;
+	font-family: kristen ITC;
+}
+
+#divs .one a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+#con {
+	text-align: justify;
+
+}
+
+body {
+	background-color: #064e88;
+}
+
+
+#con .mp{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 0px;
+	line-height: 0.9cm;
+	font-size: 17px;
+	font-family: kristen ITC;
+}
+
+.hdg {
+	text-align: center;
+	padding-bottom: 1px;
+	padding-top: 17px;
+	padding-left: 60px;
+	font-family: harrington;
+	color: #e4e229;
+}
+
+.hd {
+	text-align: center;
+	padding-bottom: 1px;
+	padding-top: 17px;
+	padding-left: 60px;
+	font-family: harrington;
+	color: #087cb1;
+}
+
+#abu {
+	height: 100px;
+	width: 1200px;
+	color: #aa9c07;
+	border: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 40px; 
+}
+
+#cir {
+	width: 400px;
+	height: 400px;
+	color: black;
+	background: #e4e229;
+	border: 20px;
+	border-radius: 50%;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+	
+}
+
+#cc {
+	padding-left: 50px;
+	padding-right: 50px; 
+}
+
+#oc {
+	width: 1200px;
+	height: 100px;
+	padding-top: 50px;
+}
+
+#ob {
+	text-indent: 55px;
+}
+
+#oc .mp {
+	color: #b1f0fb;
+}
+
+#oc #ob {
+	font-family: harrington;
+	color: #f4f9a3;
+}
