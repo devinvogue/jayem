@@ -1,3 +1,5 @@
+@import url('font-awesome.min.css');
+
 body,html{
 	margin:0;
 	padding: 0;
@@ -18,14 +20,14 @@ body,html{
 
 .nav #items li a{
 	text-decoration: none;
-	color: black;
+	color: #d6d6d6;
 
 }
 
 .nav {
 	height: 70px;
 	width: 100%;
-	background-color: #087cb1;
+	background-color: #1b1b1b;
 
 }
 
@@ -42,28 +44,31 @@ body,html{
 
 #hp {
 	height: 700px;
-	width: 1332px;
+	width: 100%;
 }
 
 .one{
 	width:22%;
-	height: 70px;
+	/*height: 70px;*/
 	float:left;
 }
 
 .one img{
 	width: 200px;
-	border-radius: 35px;
+	border-radius: 100%;
 	margin-top: 10px;
-	height: 130px;
+	height: 200px;
+	border:5px solid #ccc;
 }
 
 #footer{
 	background-color: #ffeb3b;
 	text-align: center;
-	height: 240px;
-	
-	margin-top: 160px;
+	/*height: 240px;*/
+	float: left;
+	padding: 2px 0;
+	width: 100%;
+	/*margin-top: 160px;*/
 	font-weight: bold;
 	color:black;
 	font-family: century schoolbook;
@@ -71,22 +76,29 @@ body,html{
 
 .socms li {
 	display: inline;
+    /*margin:5px 10px;*/
+}
 
+.sm i {
+
+ font-size:4-;
 }
 
 
 #dc {
-
-	padding-bottom: 25px;
-}
+    width:100%;
+    float: left;
+/*	padding-bottom: 25px;
+*/}
 
 #dc #divs {
 	width: 100%;
 	text-align: center;
-	padding: 0% 2% 0% 2%;
 	font-weight: bold;
 	background-color: white;
 	font-family: kristen ITC;
+	float: left;
+	padding: 40px 0;
 }
 
 #divs .one a{
@@ -102,7 +114,7 @@ body,html{
 }
 
 body {
-	background-color: #064e88;
+	/*background-color: #064e88;*/
 }
 
 
