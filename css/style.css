@@ -1,30 +1,10 @@
 @import url('font-awesome.min.css');
 @import url("bootstrap.min.css");
 
+
 body,html{
 	margin:0;
 	padding: 0;
-}
-
-.nav #items{
-	float: right;
-	margin-right: 100px;
-}
-
-.nav
-
-.nav #items li{
-	display: inline-block;
-	font-weight: bolder;
-	margin-right: 30px;
-	font-size: 20px;
-	font-family: bradley hand ITC;
-}
-
-.nav #items li a{
-	text-decoration: none;
-	color: #d6d6d6;
-
 }
 
 .navbar {
@@ -32,92 +12,70 @@ body,html{
 	border-radius: 0;
 }
 
-
-.nav #logo {	
-	width: 100px;
-	margin-left: 20px;
-}
-
-#logoDiv{
-	float:left;
-	width:120px;
-}
-
 .navbar-brand {
 	padding: 0;
 }
 
 #lgo {
-	width: 90px;
-	padding-bottom: 50px;
-
+	width: 72px;
 }
 
 .navbar-right {
 	margin-right: 0;
 }
-#hp {
-	height: 700px;
-	width: 100%;
+
+.content{
+	font-family: roboto, sans-serif;
+	font-size: 17px;
 }
 
-.one{
-	width:22%;
-	/*height: 70px;*/
-	float:left;
-}
-
-.one img{
-	width: 200px;
+.col-md-4 img{
+	width: 250px;
 	border-radius: 100%;
-	margin-top: 10px;
-	height: 200px;
+	height: 250px;
 	border:5px solid #ccc;
 }
 
 #footer{
 	background-color: #f1db20;
 	text-align: center;
-	/*height: 240px;*/
 	float: left;
-	
 	width: 100%;
-	/*margin-top: 160px;*/
 	font-weight: bold;
 	color:black;
-	font-family: century schoolbook;
+	font-family: Droid Sans, Sans-serif;
 }
 
 .socms li {
 	display: inline;
-    /*margin:5px 10px;*/
+    margin:5px 10px;
+    text-align: center;
 }
 
 .sm i {
-
- font-size:4;
-
+	font-size:4;
 }
 
 #Copyright {
 	background-color:hsla(54, 93%, 65%, 0.65);
+	text-align: center;
+	color: #796f6f;
+	padding-left: 35px;
 }
 
 #dc {
     width:100%;
     float: left;
-/*	padding-bottom: 25px;
-*/}
+}
 
 #dc #divs {
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
-	background-color: white;
-	font-family: kristen ITC;
+	background-color: #d6f5f5;
+	font-family: kaushan script, cursive;
 	float: left;
 	padding: 40px 0;
-	padding-left: 100px;
 }
 
 #divs .one a{
@@ -125,89 +83,56 @@ body,html{
 	color: black;
 }
 
-
-
-#con {
-	text-align: justify;
-
-}
-
-body {
-	/*background-color: #064e88;*/
-}
-
-
-#con .mp{
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-top: 0px;
-	line-height: 0.9cm;
-	font-size: 17px;
-	font-family: kristen ITC;
-}
-
 .hdg {
 	text-align: center;
 	padding-bottom: 1px;
 	padding-top: 17px;
-	padding-left: 60px;
-	font-family: harrington;
+	font-family: kaushan script, cursive;
 	color: #e4e229;
+	margin-bottom: inherit;
+	background-color: aliceblue;
 }
 
 .hd {
 	text-align: center;
-	padding-bottom: 1px;
-	padding-top: 17px;
-	padding-left: 60px;
-	font-family: harrington;
+	padding-bottom: 30px;
+	padding-top: 50px;
+	font-family: kaushan script, cursive;
 	color: #087cb1;
+	font-weight: bolder;
 }
 
-#abu {
-	height: 100px;
-	width: 1200px;
-	color: #aa9c07;
-	border: 20px;
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-top: 40px; 
-}
-
-#cir {
-	width: 400px;
-	height: 400px;
+.container .col-md-4 {
+	height: 410px;
 	color: black;
 	background: #e4e229;
 	border: 20px;
-	border-radius: 50%;
-	vertical-align: middle;
 	text-align: center;
-	display: table-cell;
-	
+	margin-top: 30px;
 }
 
-#cc {
-	padding-left: 50px;
-	padding-right: 50px; 
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
 }
 
-#oc {
-	width: 1200px;
-	height: 100px;
-	padding-top: 50px;
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
 }
 
 #ob {
-	text-indent: 55px;
+	font-family: kaushan script, cursive;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-indent: 100px;
 }
 
-#oc .mp {
-	color: #17a3bb;
-}
-
-#oc #ob {
-	font-family: harrington;
-	color: #f1db20;
-	font-weight: bolder;
+.col-md-12 {
+	color: #047f94;
+	line-height: 35px;
 }
